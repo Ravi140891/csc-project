@@ -1,0 +1,101 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #49111c;
+  color: #f2f4f3;
+  padding: 0 1rem;
+  box-shadow: 0 0 9px 1px #5e503f;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-family: "Dancing Script", cursive;
+      font-size: 1.8rem;
+      font-weight: 600;
+
+      @media screen and (max-width: 323px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      padding: 0.5rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .menu {
+    display: flex;
+    .fa {
+      display: none;
+
+      @media screen and (max-width: 698px) {
+        display: block;
+      }
+    }
+    button {
+      background: transparent;
+      color: white;
+      border: none;
+      font-size: 2rem;
+    }
+    .toggle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+      background: whitesmoke;
+      color: gray;
+      position: absolute;
+      top: 3rem;
+      right: 1rem;
+      width: 200px;
+
+      a {
+        color: gray;
+        text-decoration: none;
+      }
+
+      li {
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+      }
+
+      .active {
+        color: goldenrod;
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+
+      li {
+        list-style: none;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+      }
+
+      @media screen and (max-width: 698px) {
+        display: none;
+      }
+    }
+  }
+}

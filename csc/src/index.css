@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0908;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+.home {
+  text-align: center;
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .btn {
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 1rem;
+  border: none;
+}
+.home .swiggy {
+  background: linear-gradient(orange, red);
+  color: whitesmoke;
+}
+.home .swiggy:hover {
+  color: tomato;
+  background: whitesmoke;
+  transition: all 1s;
+}
+.home .zomato {
+  background-color: crimson;
+  color: whitesmoke;
+}
+.home .zomato:hover {
+  color: crimson;
+  background-color: whitesmoke;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.active {
+  text-decoration: none;
+  color: #a9927d;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 698px) {
+  .home h1 {
+    font-size: 2.3rem;
+  }
+
+  .home .btn {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+.carousel {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    width: 100%;
+
+    img {
+      width: 100%;
+      max-height: 600px;
+    }
+  }
+
+  @media screen and (max-width: 698px) {
+    padding: 2rem 0;
+  }
+}

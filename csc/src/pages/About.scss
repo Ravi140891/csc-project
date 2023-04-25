@@ -1,0 +1,25 @@
+.about {
+  padding: 1rem;
+  text-align: center;
+
+  h1 {
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+  }
+
+  p {
+    font-size: 1.8rem;
+
+    span {
+      font-family: "Dancing Script", cursive;
+      font-size: 2rem;
+    }
+    .hot {
+      font-family: sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #d65670;
+    }
+  }
+}
